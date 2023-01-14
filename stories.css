@@ -1,0 +1,42 @@
+.stories{
+  position:absolute;
+  top:20px;
+  display:grid;
+  width:457px;
+  height:110px;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid rgb(216, 215, 215);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-bottom: 20px;
+  column-gap: 12px;
+  margin-bottom: 20px;
+
+}
+.storis-acount img{
+  height: 100%;
+  width:100%;
+  border: 2px solid white ;
+  object-fit: cover;
+  border-radius:50%;
+  cursor: pointer;
+}
+.storis-acount {
+  width:58px;
+  height:58px;
+  border-radius: 100%;
+  background: linear-gradient(to right, red, orange);
+  padding:2px 6px 5px 2px;
+}
+.storis-acount div{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 2px;
+  white-space: nowrap;
+}
+
+

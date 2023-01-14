@@ -1,0 +1,22 @@
+p{
+  font-family: Roboto, Arial;
+  font-weight: 400;
+}
+body{
+  background-color: rgb(250, 250, 250);
+  padding-left: 400px ;
+  padding-right: 450px;
+  height:3000px;
+
+}
+.main{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width:600px
+}
+
+
+.all-posts{
+  position: fixed;
+  margin-top: 170px;
+}

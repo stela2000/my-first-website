@@ -1,0 +1,149 @@
+.all-suggestions{
+  position:fixed;
+  top:50px;
+  right:100px;
+  bottom: 0;
+  width: 357px;
+}
+
+.right-sidebar{
+  position: fixed;
+  width:319px;
+  font-family: Roboto, Arial;
+  margin-left: 30px;
+}
+
+.top-section{
+  display:flex;
+}
+
+.belu-pic{
+  height:54px;
+  width:54px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.name{
+  flex:1;
+  font-size: 12px;
+  padding-left: 15px;
+}
+.beluga-emperor{
+  font-weight: 500;
+  cursor: pointer;
+}
+.surename{
+  color:rgba(90, 89, 89, 0.63);
+  font-size: 11px;
+}
+
+.switch{
+  font-size: 13px;
+  color: rgb(0, 140, 255);
+  font-weight: 500;
+  display:flex;
+  align-items: end;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.switch:hover{
+  opacity: 0.8;
+}
+.for-you{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  color: rgb(163, 159, 159);
+  font-weight: 500;
+  font-size: 12px;
+}
+  
+.see-all{
+  color:black;
+  cursor: pointer;
+  font-weight: 400;
+  padding-left: 144px;
+  white-space: nowrap;
+}
+.see-all:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.follow-suggestions{
+  display:flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.follow-suggestions img{
+  height:35px;
+  width:35px;
+  border-radius: 24px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.follow-suggestions p{
+  font-size: 12px;
+}
+
+.name-section{
+  padding-left: 8px;
+}
+
+.sug-name{
+  font-weight: 500;
+  line-height: 4px;
+  cursor: pointer;
+}
+
+.followers{
+  color: rgb(150, 149, 149);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+
+.follow-button{
+  display: flex;
+  align-items: center;
+  border:none; 
+  color:  rgb(0, 140, 255);
+  background-color: rgb(250, 250, 250);
+  margin-left: 64px;
+}
+.follow-button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.settings {
+  color:lightgray;
+  opacity:0.8;
+  font-size: 7px;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 14px;
+}
+
+.settings .info{
+  color:lightgray;
+  opacity:0.8;
+  font-size:12px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.settings button{
+  border: none;
+  background-color: rgb(250, 250, 250);
+  padding: 0px;
+  color:lightgray;
+  cursor: pointer;
+}
+
+
+
+
